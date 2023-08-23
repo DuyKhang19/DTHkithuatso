@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đài truyền hình kĩ thuật số</title>
+    <link rel="stylesheet" href="css/index1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/icon2.png" />
+
+</head>
+<nav>
+    <div><img src="images/logo.png" alt="logovtc" class="logo"></div>
+    
+    
+
+    <div class="nav-right ">
+        <a href="">
+            <div class="user"><i class="fa-regular fa-user"></i></div>
+        </a>
+        &nbsp;
+        <a href="">
+            <div>Đăng kí</div>
+        </a>
+        <a> | </a>
+        <a href="">
+            <div>Đăng nhập</div>
+        </a>
+    </div>
+</nav>
+
+
+<body>
+
+    <header>
+
+        <ul class="menu flex second  ">
+            <label for="toggle_sidebar"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle_sidebar">
+            <div class="menu flex channels">
+                <label for="toggle_sidebar"><i class="fa-solid fa-x"></i></label>
+                <li id="home"><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li id="home"><a href="index2.html"><i class="fa-regular fa-newspaper"></i>&nbsp;Tin tức</a></li>
+                <li id="home"><a href=""><i class="fa-regular fa-circle-play"></i>&nbsp;Xem trực tiếp</a></li>
+                <li id="home"><a href=""><i class="fa-solid fa-tv"></i></i>&nbsp;Chương trình</a></li>
+                <li id="home"><a href="lichphatsong.html"><i class="fa-regular fa-calendar-days"></i>&nbsp;Lịch phát sóng</a></li>
+                <li id="home"><a href=""><i class="fa-solid fa-phone"></i>&nbsp;Liên hệ</a></li>
+            </div>
+            <div id="find">
+                <input type="text" placeholder="Tìm kiếm...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </ul>
+
+    </header>
+
+    <main onload="init()">
+        <div class="container">
+            <h2>ĐÀI TRUYỀN HÌNH KỸ THUẬT SỐ H&K</h2>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925119767875!2d106.67453267490845!3d10.817042389334228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1689776282088!5m2!1svi!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="row">
+                <div class="left">
+                    <h3 class="indent">Liên hệ</h3>
+                    <ul class="info">
+                        <li class="info1">
+                            <h4>Địa chỉ:</h4>
+                            <p>371 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, TP. Hồ Chí Minh</p>
+                        </li>
+                        <li class="info1">
+                            <h4>Điện thoại:</h4>
+                            <p> 028-38364748</p>
+
+                        </li>
+                        <li class="info1">
+                            <h4>Fax:</h4>
+                            <p>028-39207639 hoặc 028-39207640</p>
+                        </li>
+                        <li>
+                            <h4>Email:</h4>
+                            <p>ou@ou.edu.vn</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3 class="indent">Gửi yêu cầu</h3>
+                    <div class=" input">
+                        <input type="text" placeholder="* Họ và tên:">
+                        <input type="text" placeholder="* E-mail:" id="'email">
+                        <input type="text" placeholder="Điện thoại:">
+                    </div>
+                    <div class="texta"><textarea cols="71" rows="15" placeholder="* Nội dung"></textarea></div>
+                    <div class="ma">
+                        <div class="slide-show">
+                            <div class="list-images flex">
+                                <img src="images/ma/ma1.png" alt="" id="image">
+                                <img src="images/ma/ma2.png" alt="" id="image">
+                                <img src="images/ma/ma3.png" alt="" id="image">
+                                <img src="images/ma/ma4.png" alt="" id="image">
+                                <script src="js/index1.js" type="text/javascript"></script>
+                            </div>
+                        </div>
+                        <img src="images/arrows-rotate-solid.svg" alt="" onclick="Next()">
+                        <input type="text" placeholder="* Nhập mã hiển thị">
+                    </div>
+                    <div class="gui">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <input type="submit" value="GỬI TÒA SOẠN">                                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+
+    <footer>
+        <div class="F-left">
+            <div><img src="Images/icon2.png" alt="" class="imgfooter"></div>
+            <div><a href=""><img src="Images/link_googleplay.png" alt=""></a></div>
+            <div>
+                <p>Đài Truyền hình H&K giữ bản quyền nội dung trên website này</p>
+                <p>Không được sao chép thông tin nếu không có sự chấp thuận bằng văn bản của H&K.</p>
+            </div>
+            <div><i class="fa-solid fa-users"></i>Tương tác với chúng tôi:</div>
+            <div>
+                <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></li></a>
+                <a href=""><i class="fa-brands fa-youtube fa-2xl"></i></li></a>
+                <a href=""><i class="fa-brands fa-tiktok fa-2xl"></i></li></a>
+            </div>
+        </div>
+        <div class="F-right">
+            <div>LIÊN HỆ</div>
+            <div>ĐÀI TRUYỀN HÌNH KỸ THUẬT SỐ H&K</div>
+            <div><i class="fa-solid fa-location-dot"></i>: 371 Nguyễn Kiệm, P.3, Q.Gò Vấp, TP.Hồ Chí Minh</div>
+            <div><i class="fa-solid fa-phone"></i>: 028-38364748</div>
+            <div><i class="fa-solid fa-fax"></i>: 028-39207639 hoặc 028-39207640</div>
+            <div><i class="fa-solid fa-envelope"></i>: ou@ou.edu.vn</div>
+
+        </div>
+    </footer> 
+
+
+
+    
+</body>
+
+</html>
